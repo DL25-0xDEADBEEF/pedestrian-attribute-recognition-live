@@ -51,19 +51,6 @@ This project implements a multi-scale spatial transformer network for pedestrian
 - Real-time inference optimization for edge deployment
 - Robust streaming pipeline for OAK camera integration
 
-## 🏗️ Project Structure / 프로젝트 구조
-
-```
-pedestrian-attribute-recognition-live/
-├── server_inference.py          # Inference server / 추론 서버
-├── local_camera_stream.py       # Camera client / 카메라 클라이언트
-├── 25.pth.tar                   # Pre-trained model / 사전 훈련된 모델
-├── requirements.txt             # Dependencies / 의존성
-├── README.md                    # This file / 이 파일
-└── model/                       # Model architecture / 모델 구조
-    └── inception_iccv.py        # Network definition / 네트워크 정의
-```
-
 ## 📋 System Requirements / 시스템 요구사항
 
 ### Hardware / 하드웨어
